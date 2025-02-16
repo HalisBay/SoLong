@@ -1,5 +1,10 @@
 # SoLong
 
+## Table of Contents
+- [Common Instructions](#common-instructions)
+- [Mandatory Part](#mandatory-part)
+- [Usage](#usage)
+  
 ## Common Instructions
 - Your project must be written in C.
 - All heap allocated memory space must be properly freed when necessary. No leaks will be tolerated.
@@ -73,3 +78,7 @@ Here is a simple valid map:
 1111111111111111111111111111111111
 ```
 - If any misconfiguration of any kind is encountered in the file, the program must exit in a clean way, and return "Error\n" followed by an explicit error message of your choice.
+
+  ## Usage
+```bash
+./so_long <map_file>.ber
